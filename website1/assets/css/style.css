@@ -1,16 +1,53 @@
 body{
-    background: #BDBDBD;
+    background: #0e0d0d;
 }
 div.container {
-    margin: auto;
+    background: white;
 }
 #imagen {
     border-radius: 100%;
-    width: 30%;
+    width: 100%;
     float: right;
-    margin-top: 0%;
-    margin-bottom: 50%;
-    max-width: 300px;
-    margin-left: 90%;
+    
+    
+}
+.first-heading {
+	display: flex;
 }
 
+.left-part,
+.right-part {
+	padding: 5px;
+}
+span {
+    color: gray;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+div.container .project-photo{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+div.project .thing-1{
+    width: 33%;
+    margin-right: 5%;
+}
+div.project .thing-2{
+    width: 33%;
+    margin-right: 5%;
+}
+div.project .thing-3{
+    width: 33%; 
+}
+
+#foto {
+width: 100%;
+}
+h2 {
+    color: cornflowerblue;
+}
