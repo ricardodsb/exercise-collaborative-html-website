@@ -8,9 +8,7 @@ div.container {
     border-radius: 100%;
     width: 100%;
     float: right;
-    
-    
-}
+ }
 .first-heading {
 	display: flex;
 }
@@ -33,6 +31,11 @@ div.container .project-photo{
     display: flex;
     flex-direction: row;
 }
+
+.container2 {
+    background: white;
+}
+
 div.project .thing-1{
     width: 33%;
     margin-right: 5%;
@@ -50,4 +53,79 @@ width: 100%;
 }
 h2 {
     color: cornflowerblue;
+}
+
+
+
+div.container2{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.centrado1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ccontainer3 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+
+.second-heading {
+	display: flex;
+}
+
+#fuente1 {
+    background: black;
+    color: white;
+    font-size: x-large:
+}
+
+h1 {
+    font-size: 77px;
+    background-color: white;
+   
+}
+
+h2 {
+    font-size: 50px;
+    background-color: white;
+}
+
+body{
+    background: #BDBDBD;
+}
+
+.left-part2,
+.right-part2 {
+	padding: 5px;
+}
+span {
+    color: gray;
+}
+p {
+    color: black;
+}
+
+#imagen2 {
+    border-radius: 100%;
+    width: 100%;
+    float: left;
+ }
+
+ .-heading {
+	display: flex;
+}
+
+div.container4 {
+    background: white;
 }
