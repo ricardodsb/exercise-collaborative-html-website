@@ -1,5 +1,5 @@
 body{
-    background:white;
+    background: black;
 }
 div.container {
     background: white;
@@ -20,9 +20,11 @@ div.container {
 .first-heading {
 	display: flex;
     margin-left: 5%;
-    margin-top: 5%; 
+    padding-top: 10%;
 }
-
+.right-part {
+    margin-right: 5px;
+}
 .left-part,
 .right-part {
 	padding: 5px;
@@ -65,7 +67,7 @@ h2 {
 .second-heading {
     display: flex;
     margin-left: 5%;
-    margin-top: 5%;
+    padding-top: 10%;
 }
 #imagen2 {
     border-radius: 100%;
@@ -92,11 +94,14 @@ h2 {
 
 .portafolio {
     margin-left: 5%;
-    margin-top: 5%;
+    padding-top: 10%;
 }
 
 .contact {
     margin-left: 5%;
-    margin-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-
+button {
+    float: right;
+}
