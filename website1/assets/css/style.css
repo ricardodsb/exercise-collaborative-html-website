@@ -1,16 +1,26 @@
 body{
-    background: #0e0d0d;
+    background:white;
 }
 div.container {
     background: white;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 #imagen {
     border-radius: 100%;
     width: 100%;
     float: right;
- }
+    
+    
+}
 .first-heading {
 	display: flex;
+    margin-left: 5%;
+    margin-top: 5%; 
 }
 
 .left-part,
@@ -31,21 +41,18 @@ div.container .project-photo{
     display: flex;
     flex-direction: row;
 }
-
-.container2 {
-    background: white;
-}
-
 div.project .thing-1{
     width: 33%;
     margin-right: 5%;
+    margin-left: 5%;
 }
 div.project .thing-2{
     width: 33%;
     margin-right: 5%;
 }
 div.project .thing-3{
-    width: 33%; 
+    width: 33%;
+    margin-right: 5%; 
 }
 
 #foto {
@@ -55,77 +62,41 @@ h2 {
     color: cornflowerblue;
 }
 
-
-
-div.container2{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin-top: 5px;
+.second-heading {
     display: flex;
-    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#imagen2 {
+    border-radius: 100%;
+    width: 100%;
+    float: left;
+ }
+ 
+.left-part2,
+.right-part2 {
+    padding: 5px;
 }
 
-.centrado1{
+.headline {
+    width: 100%;
+    height: 100%;
+    display:block;
+}
+.centrado1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.ccontainer3 {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    background-color: white;
+.portafolio {
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-.second-heading {
-	display: flex;
+.contact {
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
-#fuente1 {
-    background: black;
-    color: white;
-    font-size: x-large:
-}
-
-h1 {
-    font-size: 77px;
-    background-color: white;
-   
-}
-
-h2 {
-    font-size: 50px;
-    background-color: white;
-}
-
-body{
-    background: #BDBDBD;
-}
-
-.left-part2,
-.right-part2 {
-	padding: 5px;
-}
-span {
-    color: gray;
-}
-p {
-    color: black;
-}
-
-#imagen2 {
-    border-radius: 100%;
-    width: 100%;
-    float: left;
- }
-
- .-heading {
-	display: flex;
-}
-
-div.container4 {
-    background: white;
-}
