@@ -105,3 +105,10 @@ h2 {
 button {
     float: right;
 }
+
+ #tagline {
+    max-width: 100%;
+    clip-path: inset(50% 0 0 0)
+    
+}
+
