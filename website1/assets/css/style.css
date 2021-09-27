@@ -87,9 +87,26 @@ h2 {
 }
 .centrado1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: rgb(242, 244, 250);
+    font-size: 500%;
+    bottom: 500px;
+    right: auto;
+    left: auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.centrado2 {
+    position: absolute;
+    background-color: rgb(242, 244, 250);
+    font-size: 300%;
+    bottom: 400px;
+    right: auto;
+    left: auto;
+    width:75%;
+    text-align: center;
+
 }
 
 .portafolio {
@@ -120,4 +137,11 @@ form {
 }
 button {
     margin-right: 2%;
+}
+p1 {
+    color: black;
+}
+
+p2 {
+    color: black;
 }
