@@ -99,8 +99,7 @@ h2 {
 
 .contact {
     margin-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
 }
 button {
     float: right;
@@ -112,3 +111,13 @@ button {
     
 }
 
+form {
+    width: 80%;
+    background: rgb(231, 226, 226);
+    display: block;
+    margin: auto;
+    
+}
+button {
+    margin-right: 2%;
+}
